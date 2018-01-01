@@ -98,15 +98,16 @@ http://34.212.204.117:5000/predict-sentiment-interface
    6. Model evaluation.
       1. Evaluated the classifiers by analyzing `accuracy`, `precision` and `recall` metrics,<br>
          using confusion matrix and classification report.
-      1. What effects did different dimensionality reduction and preprocessing<br>
-         methods have on the results?<br><br>
+      1. What effects did different dimensionality reduction and preprocessing <br>methods have on the results?
+    7. Pulled tweets from twitter with hashtags of major US Airlines to test   
+       models.<br><br>
 3. <b>LDA (Latent Dirichlet allocation) topic modeling</b>
    1. Given a corpus of text, what topics can be extracted from it?
       1. Created LDA models using Gensim and Sklearn to see what topics<br>
          were learned from the text. (used text processed using stopwords and lemma)
       2. Visualized topics generated from the training data.
-   2. Pulled tweets with hashtags of major US Airlines and trained LDA model<br>
-      to see what topics were learned from the data.
+   2. Pulled tweets from twitter with hashtags of major US Airlines and 
+      trained LDA model<br>to see what topics were learned from the data.
      
    (NOTE: LDA topic modeling is work in progress...)
      
