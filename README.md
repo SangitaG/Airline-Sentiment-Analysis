@@ -1,14 +1,14 @@
 # NLP Capstone Project: General Assembly DSI
 # :smile: Airline Sentiment Classification :disappointed:
 
-## Dataset Description from Kaggle
+## Training Dataset from Kaggle
 
 1. The Kaggle Dataset contains tweets and categories for `14,640k major U.S. airline related tweets`,
 classified into one of `3 sentiment categories:` **(positive, negative, neutral)**.<br>
 2. Tweets were scraped from February of 2015 and contributors were asked to classify tweets into positive, negative, and neutral categories.<br>
 3. They were also asked to categorize the negative category tweets into negative reason topics (such as “late flight” or “rude service”).
 
-`Link to Dataset: `   https://www.kaggle.com/crowdflower/twitter-airline-sentiment/data
+`Link to training dataset from Kaggle: `   https://www.kaggle.com/crowdflower/twitter-airline-sentiment/data
 
 ## Problem Statement
 
