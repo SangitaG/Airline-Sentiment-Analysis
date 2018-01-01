@@ -12,7 +12,7 @@ classified into one of `3 sentiment categories:` **(positive, negative, neutral)
 
 ## Problem Statement
 
-This data science project aims to help airline companies determine customer satisfaction, through feedback from twitter data.<br>
+Help airline companies determine customer satisfaction through feedback from twitter data.<br>
 
 ## Project Goal 
 
