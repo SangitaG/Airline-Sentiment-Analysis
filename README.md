@@ -45,7 +45,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
 
 ### What have I done so far?
 
-1. <b>Exploration and Analysis of the data</b>:
+1. <b>Exploration and Analysis of the data</b>
    1. Standardized case (to lower)
    2. Removed puntuations
    3. Removed stop words
