@@ -1,4 +1,5 @@
-# NLP Capstone Project: General Assembly DSI
+# NLP Capstone Project
+## General Assembly Data Science Immersive Program
 # :smile: Airline Sentiment Classification :disappointed:
 
 ## Training Dataset from Kaggle
