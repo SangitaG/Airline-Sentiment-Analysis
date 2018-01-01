@@ -18,7 +18,7 @@ Help airline companies determine customer satisfaction through feedback from twi
 ## Project Goal 
 
 Use the airline sentiment dataset from kaggle and pulled customer feedback from twitter,
-to evaluate how well Natural Language Processing and machine learning modelling techniques, can achieve the following two tasks.<br>
+to evaluate how well Natural Language Processing and machine learning modeling techniques, can achieve the following two tasks.<br>
 1. Predictive text sentiment classification.
 2. Topic inference from unknown text, through unsupervised learning models, such as LDA.<br>
    (This portion of the project is still in progress).
@@ -47,13 +47,13 @@ http://34.212.204.117:5000/predict-sentiment-interface
 
 1. <b>Exploration and Analysis of the data</b>
    1. Standardized case (to lower)
-   2. Removed puntuations
+   2. Removed punctuations
    3. Removed stop words
    4. Normalized data using stemming/lemmatization.
       1. Lemmatization: look for base of the word.<br>
        am, are, is <b>==></b> be<br> 
        car, cars, car's, cars' <b>==></b> car
-      2. Stemming: chops off the end of words based on certain alogithms.<br>
+      2. Stemming: chops off the end of words based on certain algorithms.<br>
         The most common seems to be Porter's algorithm.<br>
         sses, ies, ss, s <b>==></b> ss, i, s, ''<br>
         caresses, ponies, caress, cats <b>==></b> caress, poni, caress, cat
@@ -64,7 +64,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
       3. Created a dictionary of emojis and codes for all the emojis found in the dataset.<br>
          `NOTE`: Can continue to further explore expanding the emoji features supported.<br>
    6. Looked at effects of data dimensionality reduction by separately 
-      analyzing different levels of text processing.<br> ('cleaned text', 'added removal of stopwords', 'added use of stemming', 'added use of 
+      analyzing different levels of text processing.<br> ('cleaned text', 'added removal of stop words', 'added use of stemming', 'added use of 
       lemmatization')
    7. Explored characteristics of different n-gram features, using CounVectorizer.<br>
       Looked at the classifier words:
@@ -83,17 +83,18 @@ http://34.212.204.117:5000/predict-sentiment-interface
       to see which performs better as a preprocessing step.
    4. Tested out two classifiers: `NaiveBayes` and `Logistic Regression`, using cross validation.
       1. Why did I choose these two classifiers?<br>
-         From my understanding both have differnt learning mechanisms:<br>
+         From my understanding both have different learning mechanisms:<br>
          <b>Naive Bayes</b>:<br>
          Naive Bayes models the joint distribution (X,Y) and then predicting the<br>
          probability P(y| x) where X is the set of inputs features and Y is the output labels.<br>
          Basically it uses the training data to estimate P(X|Y) and P(Y). It then uses<br>
-         these together with bayes rule P(Y|X)=P(X|Y)*P(Y)/P(X), to predict a Y for a<br>
+         these together with Bayes rule P(Y|X)=P(X|Y)*P(Y)/P(X), to predict a Y for a<br>
          new X.<br>
          <b>Logistic Regression</b>:<br>
          Logistic regression directly models the P(y|x) from learning the input to output mapping,<br>
          by minimizing the prediction.
-   5. Ran a gridsearch to find the best model for each classifier, by tunning hyper parameters.
+   5. Ran a grid search to find the best model for each classifier, by tunning 
+      hyper parameters.
       1. Did grid searching improve the results?
    6. Model evaluation.
       1. Evaluated the classifiers by analyzing `accuracy`, `precision` and `recall` metrics,<br>
@@ -104,7 +105,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
 3. <b>LDA (Latent Dirichlet allocation) topic modeling</b>
    1. Given a corpus of text, what topics can be extracted from it?
       1. Created LDA models using Gensim and Sklearn to see what topics<br>
-         were learned from the text. (used text processed using stopwords and lemma)
+         were learned from the text. (used text processed using stop words and lemmatization)
       2. Visualized topics generated from the training data.
    2. Pulled tweets from twitter with hashtags of major US Airlines and 
       trained LDA model<br>to see what topics were learned from the data.
@@ -114,7 +115,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
 ## Next Step:     Dealing with class imbalance
 
 1.  Resample the most frequent class to have a similar size as the other classes.
-2.  Tune the penalty hyperparameter of Logistic Regression.
+2.  Tune the penalty hyper parameter for Logistic Regression algorithm.
 3.  Evaluate other algorithms which deal well with imbalanced datasets.
     1. Decision trees may perform well on imbalanced datasets. The splitting rules that look at the class 
        variable used in the creation of the trees, can force both classes to be addressed.
