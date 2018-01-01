@@ -111,8 +111,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
      
    (NOTE: LDA topic modeling is work in progress...)
      
-     
-### Next Step:     Dealing with class imbalance
+## Next Step:     Dealing with class imbalance
 
 1.  Resample the most frequent class to have a similar size as the other classes.
 2.  Tune the penalty hyperparameter of Logistic Regression.
