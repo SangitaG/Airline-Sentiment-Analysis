@@ -71,7 +71,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
       1. What are the top words for each category, with the different processed texts? 
          1. Made a wordcloud for each category.
          2. Made bar charts of top 50 words for each category.<br>
-      `NOTE`: Can further explore this by using TfidfVectorizer to see the differences.<br><br>
+      `NOTE`: Can further explore this by using TfidfVectorizer to see the differences.<br>
 2. <b>Modeling</b>
    1. What effects do emojis have on model predictions?
       1. Created model pipelines for data with and without `emoji encoding`.<br>
@@ -100,7 +100,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
          using confusion matrix and classification report.
       1. What effects did different dimensionality reduction and preprocessing <br>methods have on the results?
     7. Pulled tweets from twitter with hashtags of major US Airlines to test   
-       models.<br><br>
+       models.<br>
 3. <b>LDA (Latent Dirichlet allocation) topic modeling</b>
    1. Given a corpus of text, what topics can be extracted from it?
       1. Created LDA models using Gensim and Sklearn to see what topics<br>
@@ -110,6 +110,7 @@ http://34.212.204.117:5000/predict-sentiment-interface
       trained LDA model<br>to see what topics were learned from the data.
      
    (NOTE: LDA topic modeling is work in progress...)
+     
      
 ### Next Step:     Dealing with class imbalance
 
