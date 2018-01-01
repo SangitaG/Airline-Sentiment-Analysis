@@ -1,6 +1,6 @@
 # NLP Capstone Project
 ## General Assembly Data Science Immersive Program
-# :smile: :smile: Airline Sentiment Classification :disappointed: :disappointed:
+# ☺️ 🛫 ☺️  Airline Sentiment Classification  😞 🛬 😞
 
 ## Training Dataset from Kaggle
 
