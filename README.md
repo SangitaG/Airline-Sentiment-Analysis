@@ -1,6 +1,6 @@
-# NLP Capstone Project
-## General Assembly Data Science Immersive Program
 # ☺️ 🛫 ☺️  Airline Sentiment Classification  😞 🛬 😞
+## Performed sentiment analysis, using Natural Language Processing (NLP) techniques, to classify airline customer tweets.
+### General Assembly Data Science Immersive Program
 
 ## Training Dataset from Kaggle
 
