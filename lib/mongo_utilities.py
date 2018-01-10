@@ -1,7 +1,7 @@
 import pymongo
 
 # This will change if the AWS instance is restarted.
-mongo_IP = '35.163.170.219'
+mongo_IP = '34.213.243.241'
 mongo_port = 27016
 
 def mongoDB_create_collection(db_name, collection_name, collection_lst):
