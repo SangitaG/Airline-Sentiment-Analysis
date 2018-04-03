@@ -41,7 +41,7 @@ to evaluate how well Natural Language Processing and machine learning modeling t
 
 ## Airline Sentiment Analyzer Prototype deployed on AWS
 
-http://34.212.204.117:5000/predict-sentiment-interface
+http://54.244.9.102:5000/predict-sentiment-interface
 
 ### What have I done so far?
 
