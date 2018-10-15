@@ -21,7 +21,7 @@ Use the airline sentiment dataset from kaggle and pulled customer feedback from 
 to evaluate how well Natural Language Processing and machine learning modeling techniques, can achieve the following two tasks.<br>
 1. Predictive text sentiment classification.
 2. Topic inference from unknown text, through unsupervised learning models, such as LDA.<br>
-   (This portion of the project is still in progress).
+   (This portion of the project is still in progress)
 
 ## Challenges
 
@@ -41,7 +41,7 @@ to evaluate how well Natural Language Processing and machine learning modeling t
 
 ## Airline Sentiment Analyzer Prototype deployed on AWS
 
-http://54.244.9.102:5000/predict-sentiment-interface
+http://54.212.104.80:5000/predict-sentiment-interface
 
 ### What have I done so far?
 
